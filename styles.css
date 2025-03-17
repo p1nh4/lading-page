@@ -1,0 +1,128 @@
+/* TAGS */
+
+body {
+    margin: 0; 
+    background-color: #eee;
+}
+
+
+/* aplicado aos links do header */
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: o;
+    padding: 0;
+    gap: 16px;
+}
+
+/* tirar o sublinhado do link */
+a {
+    text-decoration: none;
+}
+
+
+
+/* CLASSES */
+
+
+/* aplicado ao header  */
+.header {
+    padding: 8px;
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    /* gap: 16px; */
+}
+
+
+/* aplicado ao container abaixo do header */
+.container {
+    display: flex;
+    /* justify-content: space-around; */
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    gap: 0;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8em;
+    /* padding: 2em; */
+    height: 10em;
+    width: 30em;
+    background-color: wheat;
+    /* gap: 0; */
+}
+
+
+/* aplicado a primeira section main  */
+.title-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    /* margin: 50px; */
+    padding: 50px;
+}
+
+.main-container {
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+    /* align-items: center; */
+    background-color: darkorange;  
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.boxes {
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+
+/* tamanho maximo descrição boxes */
+.max-p {
+    max-width: 200px;
+    background-color: yellow;
+}
+
+/* aplicado a segunda section do main */
+.main-container-two {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: violet;
+}
+
+.citation {
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    background-color: aquamarine;
+}
+
+.text {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+    /* background-color: brown; */
+}
