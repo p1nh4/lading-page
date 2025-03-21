@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lading-page</title>
+    <title>landing-page</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="font">
 
-    <div class="header">
+    <div class="header background-color">
         <div class="left">
-            <div class="logo">
-                HEADER LOGO
+            <div class="bold">
+                Header Logo
             </div>
         </div>
         <div class="right">    
@@ -23,16 +27,19 @@
         </div>
     </div>
 
-    <div class="container">
-            <div class="container-header">1</div>
-            <div class="container-header">2</div>
+    <div class="container background-color">
+            <div class="container-header">
+                <p class="text-hero">This website is awesome</p>
+                <p class="text-hero-secondary">This website has some subtext that goes here under the main title. <br> It's smaller font and the color is lower contrast</p>
+                <button>Sign up</button>
+            
+            </div>
+            <div class="container-image">this is a placeholder for an image</div>
     </div> 
 
     <main>
         <section>
-            <div class="title-section">
-                Some Random Information.
-            </div>
+            <div class="title-section">Some Random Information.</div>
         </section>
         <section>
             <div class="main-container">
@@ -58,17 +65,26 @@
         <section>
             <div class="main-container-two">    
                 <div class="citation">
-                    <p><cite>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</cite>
-                    -Thor, God of Thunder</p>
+                    <p><cite>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice. <br><strong>-Thor, God of Thunder</strong></cite></p>
                 </div>
             </div>
             </div>
         </section>
 
-        <section></section>
+        <section>
+            <div class="main-container-three">
+                <div class="blue-div">
+                    <div>
+                        <p class="bold">Call to action! It's time!</p>
+                        <p class="color-gray">Sign up for our product by clicking that button right over there!</p>     
+                    </div>
+                    <button>Sign Up</button>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer></footer>
+    <footer class="background-color">Copyright © The Odin Project 2025</footer>
 
 </body>
 </html>

@@ -18,6 +18,31 @@ ul {
 /* tirar o sublinhado do link */
 a {
     text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/* botao header */
+button {
+    padding: 10px; 
+    width: 8rem;
+    font-weight: 900;
+    color: #F9FAF8;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+    background-color: #3882F6;
+}
+
+
+/* aplicado ao footer */
+footer {
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    /* margin: 50px; */
+    padding: 50px;
 }
 
 
@@ -25,12 +50,52 @@ a {
 /* CLASSES */
 
 
+/* estilos generais */
+.font {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+
+.background-color {
+    background-color: #1F2937;
+}
+
+
+.text-hero {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+
+.text-hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+
+.bold {
+    font-weight: 900;
+}
+
+
+.color-gray {
+    color: #E5E7EB
+}
+
+
 /* aplicado ao header  */
 .header {
     padding: 8px;
     display: flex;
+    color: #F9FAF8;
+    font-size: 24px;
     justify-content: space-around;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .left, .right {
@@ -43,32 +108,54 @@ a {
 /* aplicado ao container abaixo do header */
 .container {
     display: flex;
-    /* justify-content: space-around; */
-    margin: 0;
-    padding: 0;
-    background-color: red;
-    gap: 0;
+    justify-content: center;
+    margin: auto;
+    padding: 200px;
+    /* background-color: red; */
+    /* gap: 0; */
 }
 
-.container-header {
-    display: flex;
-    align-items: center;
+/*.container-header {
+    display: flex; 
+    align-items: flex-start;
     justify-content: center;
-    margin: 8em;
-    /* padding: 2em; */
-    height: 10em;
-    width: 30em;
-    background-color: wheat;
+    flex-direction: column; */
+    /* margin: auto; */
+    /* text-align: start; */
+    /* padding: 2em;
+    height: 10em; 
+    width: 50em; */
+    /* background-color: wheat; */
     /* gap: 0; */
+    /* flex-shrink: 1; 
+}*/
+
+.container-image {
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    color: #F9FAF8 ;
+    margin: auto;
+    text-align: start;
+    background-color: gray;
+    padding: 8em;
+    /* height: 10em; */
+    /* width: 50em; */
+    /* background-color: wheat; */
+    /* gap: 0; */
+    /* flex-shrink: 1; */
 }
 
 
 /* aplicado a primeira section main  */
 .title-section {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aqua;
+    /* background-color: aqua; */
     /* margin: 50px; */
     padding: 50px;
 }
@@ -79,7 +166,7 @@ a {
     justify-content: space-evenly;
     gap: 25px;
     /* align-items: center; */
-    background-color: darkorange;  
+    /* background-color: darkorange;   */
 }
 
 .wrapper {
@@ -92,37 +179,83 @@ a {
     height: 150px;
     border: 3px solid #3882f6;
     border-radius: 10px;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 /* tamanho maximo descrição boxes */
 .max-p {
-    max-width: 200px;
-    background-color: yellow;
+    color: #1F2937;
+    max-width: 175px;
+    /* background-color: yellow; */
 }
+
 
 /* aplicado a segunda section do main */
 .main-container-two {
     padding: 100px;
+    background-color: #E5E7EB;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: violet;
+    /* background-color: violet; */
 }
 
 .citation {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;  /* light */
+    color: #1F2937;
     width: 1000px;
     height: 200px;
     display: flex;
     align-items: center;
     text-align: justify;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 .text {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* text-align: center; */
-    /* background-color: brown; */
+}
+
+
+/* aplicado a terceira section do main */
+
+.main-container-three {
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+
+
+.blue-div {
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+}
+
+
+.blue-div > button {
+    border-color: #E5E7EB;
+}
+
+/* aplicado ao footer */
+
+/* .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    margin: 50px;
+    padding: 50px;
+} */
+
+
+.author {
+    text-align: end;
 }

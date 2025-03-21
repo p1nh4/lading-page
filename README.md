@@ -1,4 +1,4 @@
-# lading-page
+# landing-page
 
 ##  Project description 
 
